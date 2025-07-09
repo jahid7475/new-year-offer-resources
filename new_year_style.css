@@ -1,0 +1,334 @@
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* all style */
+
+
+
+/* share style */
+.font-colour{
+    color: rgba(255, 255, 255, 1);
+}
+.text-line{
+    text-align: center;
+}
+.fixed-color{
+    color: red;
+}
+
+/* header style */
+
+.header{
+    background-image: url(../new-year-offer-resources/images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    margin: 50px auto;
+    /* background-image: linear-gradient(to-bo rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('.//images/Banner\ Image.png'); */
+    
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)),
+     \url('.//images/Banner\ Image.png');
+                 
+}
+.new-year-bannner{
+    text-align: center;
+    padding: 120px 344px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+.banner-title{
+    font-size: 32px;
+}
+.banner-description{
+    font-size: 72px;
+    font-weight: bold;
+}
+/* offer style */
+.offer-title{
+    font-size: 88px;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 1);
+}
+.offer-description{
+    font-size: 24px;
+    color: rgba(255, 0, 0, 1);
+}
+.offer-categories{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* party style */
+
+.midnight-party{
+    background-image:url(../new-year-offer-resources/images/Vectorrr.png) ;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.537)),
+     \url('../new-year-offer-resources/images/Vectorrr.png');
+    
+}
+.party_time{
+    margin-left: 126px;
+    margin-top: 80px;
+}
+.party-title{
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+    width: 590px;
+    height: 176px;
+}
+.party-description{
+    width: 600px;
+    height: 60px;
+    color: white;
+}
+.party-button{
+    height: 24px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    color: white;
+    border: none;
+    margin-left: 25px;
+}
+.party-year{
+    margin:68px 138px 67px ;
+}
+
+/* event style */
+.event-info{
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+    margin: 120px auto;
+    width: 1320px;
+    height: 482px;
+    text-align: center;
+    padding-top: 100px;
+}
+.event-place{
+   font-size: 32px;
+   font-weight: 600px;
+}
+.event-date{
+    font-size: 32px;
+    font-weight: 600px;
+}
+.event-time{
+    font-size: 32px;
+    font-weight: 600px;
+}
+.event-btn{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold ;
+    border: none;
+    border-radius: 8px;
+    width: 167px;
+    height: 56px;
+}
+
+/*best-offer style */
+.total-best-offer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 120px auto;
+    width: 1320px;
+    height: 463px;
+    gap: 100px;
+}
+.best-offer{+
+
+    width: 300px;
+    height: 255px;
+}
+.best-offer-title{
+    font-size: 24px;
+    font-weight: 500px;
+}
+.best-offer-greetings{
+    font-size: 48px;
+    font-weight: bold;
+}
+.best-offer-description{
+    font-size: 20px;
+    width: 393px;
+    height: 120px;
+    color: rgba(7, 2, 17, 0.6);
+}
+.year-2024{
+    font-size: 48px;
+    font-weight: bold;
+}
+.offer-year-description{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+.offer-year-image{
+    width: 140px;
+    height: 140px;
+}
+
+
+/* holiday_offer style */
+
+.holiday_offer{
+    text-align: center;
+    width: 1320px;
+    height: 985px; 
+    margin: 120px auto;
+}
+.holiday_offer_derivation{
+    margin: 120px;
+    width: 1068px;
+}
+.holiday_offer_gredence{
+    font-size: 24px;
+    font-weight: 600px;
+}
+.holiday_offer_title{
+    font-size: 72px;
+    font-weight: bold;
+}
+.title_color{
+    color: red;
+}
+.holiday_offer_description{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.holiday_offer_image{
+    display: flex;
+    background-image: url(../new-year-offer-resources/images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.discount{
+    margin-top: -350px;
+}
+
+/* item_list style  */
+
+.item_list{
+    width: 1320px;
+    height: 1163px;
+    margin: 200px auto;
+}
+.item_gredence{
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+}
+.item_title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.item_description{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+.item_image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+/* subscribe_part styel  */
+
+.subscribe_part{
+    text-align: center;
+    background-color: antiquewhite;
+    width:1320px ;
+    height: 616px;
+    margin: 120px auto;
+    padding-top: 120px;
+}
+/* .subscribe_image{
+    width: 150px;
+    height: 150px;
+} */
+.subscribr_title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.subscribe_description{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+
+}
+
+.subscribe_from{
+    
+    
+}
+.subscribe_from input {
+   
+    border: none;
+    padding: 14px 30px;
+    font-size: 14px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    
+}
+
+.subscribe_from button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-end-end-radius: 40px;
+    border-start-end-radius: 40px;
+    
+
+}
+hr{
+    color: rgba(255, 255, 255, 0.15);
+}
+
+/* footer style  */
+footer{
+    background-color: black;
+    color: white;
+    /* width: 1600px; */
+    height: 609px;
+    margin: 0px auto;
+    font-size: 24px;
+    font-weight: 600px;
+    padding: 150px;
+}
+.basic_information{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 275px;
+    padding-bottom:55px ;
+}
+.social_icon{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    padding: 48px;
+}
+.copy_rights{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+}
